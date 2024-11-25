@@ -1,0 +1,9 @@
+{% extends 'pokeapi/base.html' %}
+{% block title %}
+    Pokeapi
+{% endblock %}
+{% block content %}
+    <div id="root"></div>
+    {% load static %}
+    <script src="{% static 'js/pokeapi.js' %}"></script>
+{% endblock %}
